@@ -1,0 +1,125 @@
+body {
+    background: url(img/bg.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: x-large;
+    color: #FFFFFF; 
+    text-shadow: 2px 2px 2px #df33a5;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    margin: auto;
+}
+
+section > button {
+    padding: 25px;
+    font-size: x-large;
+    background-color: palevioletred;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: 1s ease;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+section > button:hover {
+    background-color:rgb(219, 66, 117) ;
+    transition: 1s ease;
+}
+
+.uhodnute {
+    text-align: center;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #df33a5;
+}
+
+.warning {
+    color: #FFFFFF; 
+    font-size: x-large;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #df33a5;
+}
+
+button img {
+    vertical-align: middle;
+    height: 2em; 
+       
+}
+
+.prehrat {
+    padding: 25px;
+    font-size: x-large;
+    background-color: palevioletred;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-weight: 800;
+    transition: 1s ease;
+}
+
+.prehrat:hover {
+    background-color: #FF2D95;
+    transition: 1s ease;
+}
+
+.vyber {
+    font-size: x-large;
+}
+
+
+
+select {
+    padding: 15px;
+    font-size: large;
+    color: black;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.generace {
+    margin-bottom: 10px;
+}
+
+.confirm {
+    margin-top: 25px;
+    font-size: large;
+    background-color: palevioletred;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-weight: 800;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 1s ease;
+}
+
+.confirm:hover {
+    background-color: #FF2D95;
+    transition: 1s ease;
+}
+
+option {
+    text-shadow: 2px 2px 2px #df33a5;
+}
+
+
+
+
+
+
+
+
+

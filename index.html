@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoTrack - Hádání songů</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+<div class="container">
+    <header>
+        <img src="img/logo.png" class="logo">
+        <p>Vítejte na EchoTrack. Přehraje se vám 5s úsek píšničky, <br>podle kterého ji musíte uhodnout. Máte 3 pokusy. </p>
+        </p>
+    </header>
+
+    <section id="generace">
+        <button onclick="generation()">Jdeme hádat!</button>
+        <p class="warning">❗Varování písničky se mohou opakovat❗</p>
+    </section>
+
+
+    <main id="hra">
+        <button id="song" onclick="play()" class="prehrat"> <img id="status" src="img/play.png"></button>
+        <
+        <div class="vyber">
+            <label>
+                <option>Vyber píšničku:</option>
+                <select id="vyberSong">
+                </select>
+            </label>
+        </div>
+        <button onclick="potvrdit()" class="confirm">Potvrdit</button>
+    </main>
+
+    <div class="uhodnute">
+        <p id="right">✅Správně uhodnuté: 0</p>
+        <p id="wrong">❌Špatně uhodnuté: 0</p>
+    </div>
+</div>
+</body>
+</html>
